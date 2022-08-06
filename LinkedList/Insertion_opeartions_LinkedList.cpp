@@ -58,7 +58,7 @@ void insertAtMiddle(Node* &head, Node* tail, int posiiton, int x){
       return ;
     }
   // insert at middle or any psoition
-    newNode -> next = temp;
+    newNode -> next = temp->next;
     temp->next = newNode;
     
     
